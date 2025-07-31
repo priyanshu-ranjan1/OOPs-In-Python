@@ -1,17 +1,17 @@
-#making an class
+#firat we should make an class o later use it as OBJECT
 class Student:
     name ="Priyanshu Ranjan"
     Language = "Telugu"
-    Salary = 500000
+    Salary = 500000 #class done
+
+#here we made an objevt using class student
+#all data o fstudent can be used as ranjan now 
+#object attributes keeps high value than class value 
 
 ranjan=Student()
 print(ranjan.Salary)
 print(ranjan)
 print(type(ranjan))
-
-#here we replacend an object in the class 
-Student.name="shree ranjan"
-print(Student.name)
 
 #new class example 
 class Employee:
@@ -29,4 +29,4 @@ print(worker)
 
 
 ranjan=Employee()
-print(ranjan.cuteness,ranjan.languages,ranjan.location,ranjan.salary)
+print(ranjan.cuteness,ranjan.languages)
