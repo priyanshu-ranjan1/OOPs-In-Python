@@ -21,3 +21,21 @@ College.love()  # calling directly like opening up my heart in public
 forgetherformyfuturewife = College("ranjan")  # made a cute object just for her 
 print(forgetherformyfuturewife.herfullname)  # revealing only to me what's stored in the heart 
 
+#final summary 
+
+
+class House:
+    rooms = 4
+    owner = "Ranjan ka chota bhai"  # default known to everyone
+
+    def __init__(self, secret_key):
+        self.secret_key = secret_key  # hidden, private for that room
+
+room1=House("dibbi5879")
+print(room1.owner)
+print(room1.secret_key)
+
+room2 = House("dibbi_5468")
+room2.owner="ranjan op sister"
+print(room2.secret_key)  # works perfectly, secret known only to this object
+
