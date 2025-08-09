@@ -1,8 +1,10 @@
-class Employee:
-    a=12
-    def show(self):
-        print(f"the class value of a is {self.a}")
+class Students:
+    section="a"
+    total_students=5
 
-e=Employee()
-e.a=67
-e.show()
+    @classmethod
+    def pp(cls,name,age):
+        print(f"my name is {name} and my age {age} and am from {cls.section} and in my class total students are {cls.total_students}")
+        
+        #if we need to work from the class itself , then we use class method 
+        
